@@ -1,0 +1,6 @@
+nums = [10, 20, 30, 40, 50]
+nums.append(60)
+nums.remove(20)
+print("List:", nums)
+print("First 2:", nums[:2])
+print("From 3rd:", nums[2:])

@@ -1,0 +1,7 @@
+data = [10, 20, 30, 40, 50]
+exported = "\n".join(str(x) for x in data)
+lines = exported.split("\n")
+imported_data = [int(x) for x in lines]
+print("Exported (as string):")
+print(exported)
+print("Imported (as list):", imported_data)
